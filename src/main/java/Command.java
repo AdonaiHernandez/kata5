@@ -1,5 +1,7 @@
 public interface Command {
 
+    Output execute(Input input);
+
     interface Output{
         String result();
 
